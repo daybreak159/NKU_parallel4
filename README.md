@@ -44,15 +44,6 @@ g++ correctness2.cpp train2.cpp guessing2.cpp md5.cpp -o main2 -O2
 g++ main_openmp.cpp train_openmp.cpp guessing_openmp.cpp md5.cpp -o main_omp -O2 -fopenmp
 ```
 
-## 运行环境
-
-- **操作系统**：Linux
-- **编译器**：GCC (支持C++11及以上标准)
-- **数据集**：RockYou密码数据集 (`/guessdata/Rockyou-singleLined-full.txt`)
-
-## 数据说明
-
-**重要提示**：由于代码经历了多次修改，很多测试数据没有保留或者无法与某个对应版本的代码相对应。仓库中只上传了部分相关数据，具体的性能测试数据和实验结果请以实验报告为准。
 
 ## 实验内容
 
@@ -66,4 +57,4 @@ g++ main_openmp.cpp train_openmp.cpp guessing_openmp.cpp md5.cpp -o main_omp -O2
 
 ## 致歉说明
 
-由于开发过程中的多次代码迭代，部分测试数据与代码版本无法完全对应。如需了解详细的实验数据和性能分析结果，请参考完整的实验报告文档。
+在完成本次并行作业的过程中，因为代码经历了多次修改，很多测试数据没有保留或者无法与某个对应版本的代码相对应，我只上传了部分相关数据，具体数据请以报告为准，非常抱歉
