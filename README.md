@@ -15,7 +15,7 @@
 
 ## 主要文件结构
 
-
+```
 ├── main.cpp                    # Pthread版本主程序
 ├── correctness2.cpp           # 串行版本正确性验证程序
 ├── guessing_pth.cpp           # Pthread并行实现核心算法
@@ -27,7 +27,7 @@
 ├── train.cpp / train2.cpp     # 模型训练模块
 ├── md5.cpp / md5.h            # MD5哈希计算模块
 └── 我的main.tex               # 实验报告LaTeX源码
-
+```
 
 ## 编译说明
 
@@ -66,4 +66,4 @@ g++ main_openmp.cpp train_openmp.cpp guessing_openmp.cpp md5.cpp -o main_omp -O2
 
 ## 致歉说明
 
-由于完成作业过程中的多次代码迭代，部分测试数据与代码版本无法完全对应。如需了解详细的实验数据和性能分析结果，请参考完整的实验报告文档。
+由于开发过程中的多次代码迭代，部分测试数据与代码版本无法完全对应。如需了解详细的实验数据和性能分析结果，请参考完整的实验报告文档。
